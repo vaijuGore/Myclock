@@ -32,7 +32,8 @@ public class TwoNumbers {
     if (a==b)
     {return true;}
     return false;
-} 
+}
+}
 
    
     
