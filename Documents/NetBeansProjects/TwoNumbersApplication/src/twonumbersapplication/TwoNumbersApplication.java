@@ -25,8 +25,8 @@ public class TwoNumbersApplication {
        myNumber.equal();
        Boolean re2 = myNumber.equal();
         System.out.println(""+re2);
-      String re1= myNumber.toString();
-       System.out.println(""+re1);
+     // String re1= myNumber.toString();
+      // System.out.println(""+re1);
     }
     
 }
