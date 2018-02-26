@@ -33,6 +33,12 @@ public class TwoNumbers {
     {return true;}
     return false;
 }
+ 
+
+    @Override
+    public String toString() {
+        return "FirstNumber" +a +"second Number"+b;
+    }
 }
 
    
