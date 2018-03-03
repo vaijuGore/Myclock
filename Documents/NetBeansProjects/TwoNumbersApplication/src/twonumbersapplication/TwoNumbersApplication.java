@@ -23,6 +23,7 @@ public class TwoNumbersApplication {
        myNumber.max();
        myNumber.second();
        myNumber.equal();
+      
        Boolean re2 = myNumber.equal();
         System.out.println(""+re2);
       String re1= myNumber.toString();
