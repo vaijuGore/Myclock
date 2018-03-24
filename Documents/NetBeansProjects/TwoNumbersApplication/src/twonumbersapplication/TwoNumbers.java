@@ -36,13 +36,7 @@ public class TwoNumbers {
     public String toString() {
         return "FirstNumber" +a +"second Number"+b;
     }
- public int GCD (int a,int b) { 
-     while (a > 0){
-            int rem = a % b;
-            a = b;
-            b = rem;
-	return a ;
- }       
+}
 
    
 
