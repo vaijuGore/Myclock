@@ -33,7 +33,7 @@ public class DigitalClockPanel extends ClockPanel {
         super.paintComponent(g);
         JTextField timeF =new JTextField(10);
     
-        label.setFont(new Font("Arial",Font.PLAIN,48));
+        label.setFont(new Font("Arial",Font.PLAIN,24));
         panel.add(label,BorderLayout.CENTER);
         add(panel);
         Timer t =new Timer(1000,new Listener());
@@ -48,7 +48,10 @@ public class DigitalClockPanel extends ClockPanel {
                 int hour = rightnow.get(Calendar.HOUR_OF_DAY);
                 int min = rightnow.get(Calendar.MINUTE); 
                 int sec = rightnow.get(Calendar.SECOND);
-              label .setText(hour+":"+min+":"+sec);
+                 int date = rightnow.get(Calendar.DATE);
+                  int AP = rightnow.get(Calendar.AM_PM );
+                     
+              label .setText("Today is "+date+""+hour+":"+min+":"+sec+""+AP);
 }
 }
 }
